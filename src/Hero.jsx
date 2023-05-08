@@ -9,22 +9,24 @@ const myphoto = `https://media.licdn.com/dms/image/D4D03AQFFov7JZu54Qg/profile-d
 
 const Hero = () => {
   return (
-    <section className="hero" >
+    <section className="hero"id="hero-page"  >
       <div className="hero-center" >
         <div style={{display:"flex",width:"100%"}} >
         <div className="hero-title"  >
-            <h1>I'm NSENGIYUMVA CHRISTIAN</h1>
+            <h1>I'M NSENGIYUMVA CHRISTIAN</h1>
        
            <p style={{marginBottom:"10px"}} >a junior software developer with a specialization in web development using ReactJs and NodeJs. This portfolio project serves as a testament to my skills and expertise in the field.
 
 My passion lies in creating dynamic and intuitive web applications that enhance user experience. If you are looking for a dedicated and skilled developer to work on your project or join your team, I would be thrilled to hear from you. Please feel free to reach out to me with any opportunities or questions you may have.</p>
+          
+            
             {social.map((socialIc)=>{
                 const {id,url,icon} = socialIc;
-                return <a style={{fontSize:"30PX",margin:"10px",color:"#2d4144"}} target='_blank' key={id} href={url}>{icon}</a>
+                return <a  style={{fontSize:"30PX",margin:"10px",color:"#2d4144"}} target='_blank' key={id} href={url}>{icon}</a>
             }) }
             <ul>
-                <li style={{display:"flex",color:"#2d4144"}}><HiMail style={{fontSize:"20PX"}} /> +250786457338 </li>
-                 <li style={{display:"flex",color:"#2d4144"}} ><HiPhone style={{fontSize:"20PX"}} /> cristiannsengi@gmail.com </li>
+                <li  style={{display:"flex",color:"#2d4144"}}><HiMail style={{fontSize:"20PX"}} /> +250786457338 </li>
+                 <li  style={{display:"flex",color:"#2d4144"}} ><HiPhone style={{fontSize:"20PX"}} /> cristiannsengi@gmail.com </li>
             </ul>
         
         </div>

@@ -12,24 +12,47 @@ const Projects = () => {
  }
 
   return (
-    <section className="projects">
-   <div className="title">
-    <h2 id="top" > {projects.length} Projects</h2>
+    <div>
+  <section className="projects"  >
+
+<div className="title">
+    <h2>{projects.slice(0,1).length} Advanced project</h2>
     <div className="title-underline"></div>
    </div>
 
-   <div className="projects-center">
-    {projects.map((project)=>{
+   <div className="projects-center"  >
+    {projects.slice(0,1).map((project)=>{
         const {id,img,url,title} = project
-        return <a key={id} href={url} target='_blank' rel="noreferrer" className="project" >
+        return <a key={id} href={url} target='_blank' rel="noreferrer" title="click to visit"  className="project" >
           <img src={img} alt={title} className="img" />
           <h5>{title}</h5>
         </a>
 
     }) }
    </div>
-   <a href='#top'  style={{textAlign:"center"}} ><h4 style={{marginTop:"25px",color:"#dededc", width:"80%",background:"#24241f",margin:"0 auto", borderRadius:"10px", padding:"3px"}} > BACK TO THE TOP </h4></a> 
 </section>
+
+<section className="projects"  >
+   <div className="title">
+    <h2 >{projects.slice(1,23).length} Fundamental projects</h2>
+    <div className="title-underline"></div>
+   </div>
+
+   <div className="projects-center">
+    {projects.slice(1,23).map((project)=>{
+        const {id,img,url,title} = project
+        return <a title="click to visit" key={id} href={url} target='_blank' rel="noreferrer" className="project" >
+          <img src={img} alt={title} className="img" />
+          <h5>{title}</h5>
+        </a>
+
+    }) }
+   </div>
+
+   <a href='#hero-page'  style={{textAlign:"center"}} ><h4 style={{margin:"15px auto",color:"#dededc", width:"80%",background:"#24241f", borderRadius:"10px", padding:"3px"}} > BACK TO THE TOP </h4></a> 
+</section>
+</div>
+
   )
 }
 
