@@ -25,8 +25,10 @@ My passion lies in creating dynamic and intuitive web applications that enhance 
                 return <a  style={{fontSize:"30PX",margin:"10px",color:"#2d4144"}} target='_blank' key={id} href={url}>{icon}</a>
             }) }
             <ul>
-                <li  style={{display:"flex",color:"#2d4144"}}><HiMail style={{fontSize:"20PX"}} /> +250786457338 </li>
-                 <li  style={{display:"flex",color:"#2d4144"}} ><HiPhone style={{fontSize:"20PX"}} /> cristiannsengi@gmail.com </li>
+
+                <li style={{display:"flex",color:"#2d4144"}}><HiPhone style={{fontSize:"20PX"}} /> +250786457338 </li>
+                 <li style={{display:"flex",color:"#2d4144"}} > <HiMail style={{fontSize:"20PX"}} /> cristiannsengi@gmail.com </li>
+
             </ul>
         
         </div>
