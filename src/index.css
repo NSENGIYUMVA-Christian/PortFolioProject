@@ -8,6 +8,9 @@
   box-sizing: border-box;
 }
 
+img {
+  display:block
+}
 html {
   font-size: 100%;
 } /*16px*/
@@ -172,15 +175,92 @@ PROJECT CSS
 
 body {
   background: #7c7b79;
+  min-height: 100vh;
+  min-width: 300px;
 }
-.hero {
-  min-height: 40vh;
-  background: #e1e1e0;
+
+/* ||HEADER */
+.header{
+  min-height: 8vh;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  padding: 5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color:#7c7b79 ;
+  width: 100%;
 }
+.header__h2{
+  color:whitesmoke;
+  text-shadow: 2px 2px 5px #4b3c1f;
+  
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+nav li {
+  padding: 0.5rem;
+  width: 100%;
+  
+}
+
+nav a {
+  color:whitesmoke;
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+nav a:any-link {
+  color: whitesmoke;
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+nav a:hover,
+nav a:focus {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+
+
+/* ||HERO */
+
+.hero {
+  min-height: 20vh;
+  background-image:linear-gradient(to left, rgb(103, 125, 143),white);
+  padding: 5px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+figure{
+  width: 80%;
+}
+
+.hero__div{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap:1em;
+  margin: 5px;
+}
+.hero__div:nth-child(1){
+ 
+}
+.hero__img{
+  width:100% ;
+  height:auto ;
+  border-radius: 50%;
+}
+
 .hero-center {
   width: 90vw;
   max-width: var(--max-width);
@@ -260,17 +340,13 @@ body {
   margin: 0 auto;
 }
 
-/* 
-.thanks{
-  animation: bounce 2s ease-in-out infinite
-}  */
 
 @keyframes bounce {
   0%{
 transform: scale(1);
   }
   50%{
-    transform: scale(1.06);
+    transform: scale(1.03);
   }
   0%{
     transform: scale(1);

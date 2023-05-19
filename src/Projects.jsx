@@ -48,8 +48,6 @@ const Projects = () => {
 
     }) }
    </div>
-
-   <a href='#hero-page'  style={{textAlign:"center"}} ><h4 style={{margin:"15px auto",color:"#dededc", width:"80%",background:"#24241f", borderRadius:"10px", padding:"3px"}} > BACK TO THE TOP </h4></a> 
 </section>
 </div>
 
