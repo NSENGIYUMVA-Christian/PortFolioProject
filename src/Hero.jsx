@@ -1,7 +1,7 @@
 import React from 'react'
 import {social} from "./social" 
 import {HiMail , HiPhone}  from "react-icons/hi";
-const aboutText = `Experienced junior software developer specializing in ReactJs and NodeJs for web development. Passionate about creating dynamic web applications that enhance user experience. Available for project work or team collaboration. Feel free to reach out for any opportunities or questions.`
+const aboutText = `a junior software developer specializing in ReactJs and NodeJs for web development. Passionate about creating dynamic web applications that enhance user experience.`
 
  
 
@@ -27,9 +27,9 @@ const myphoto = `https://media.licdn.com/dms/image/D4D03AQFFov7JZu54Qg/profile-d
 const Hero = () => {
   return (
    <section className='hero' >
-  <h1>WELCOME TO MY PORTFOLIO</h1>
+  <h2 className='hero__h2' >WELCOME TO MY PORTFOLIO</h2>
   <div className='hero__div' >
-  <p> {aboutText}</p>
+  <p> <span className='hero__name'>I'M NSENGIYUMVA CHRISTIAN</span> {aboutText}</p>
        <figure>
         <img  className='hero__img' src={myphoto} alt="christian"  width="400" height="400" />
        </figure>
