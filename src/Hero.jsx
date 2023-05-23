@@ -1,7 +1,7 @@
 import React from 'react'
 import {social} from "./social" 
 import {HiMail , HiPhone}  from "react-icons/hi";
-const aboutText = ` I'm Nsengiyumva Christian, a passionate web developer creating seamless online experiences. With creativity, technical expertise, and unwavering commitment to quality, I bring your visions to life. Let's reshape the digital landscape together with innovation and elegance.`
+const aboutText = ` I'm Nsengiyumva Christian, a professional web developer creating seamless online experiences. With creativity, technical expertise, and unwavering commitment to quality, I bring your visions to life. Let's reshape the digital landscape together with innovation and elegance.`
 
  
 
