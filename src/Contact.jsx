@@ -9,11 +9,12 @@ import {ImLocation} from "react-icons/im"
       <h3 className='contact-me-header' >CONTACT ME</h3>
       <p>Looking for new opportunities in website development? Don't hesitate to reach out and drop me a message! Whether it's about your project requirements, collaboration ideas, or any related concepts, I'm here to help you bring your vision to life.</p>
       <div> <h3 className='connect' >LET'S CONNECT</h3> 
-     <ul className='footer-icons' >
+    <div className='contact-cons'>
+    <ul className='contact-social-links' >
       
       {social.map((socialIc)=>{
           const {id,url,icon} = socialIc;
-          return <li key={id} >
+          return <li key={id}  >
               <a href={url} target='_blank'  >{icon}</a>
           </li>
       }) }
@@ -23,6 +24,8 @@ import {ImLocation} from "react-icons/im"
 <li> <span className='extra-icon' ><HiPhone/></span>  +250786457338</li>
 <li><span className='extra-icon' ><ImLocation/> </span>  KIGALI-RWANDA</li>
 </ul>
+      </div> 
+     
       </div>
       <form
   action="https://formspree.io/f/mrgvvbrp"
