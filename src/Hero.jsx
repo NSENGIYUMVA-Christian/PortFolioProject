@@ -1,35 +1,30 @@
 import React from 'react'
 import {social} from "./social" 
 import {HiMail , HiPhone}  from "react-icons/hi";
-const aboutText = `a junior software developer specializing in ReactJs and NodeJs for web development. Passionate about creating dynamic web applications that enhance user experience.`
+const aboutText = ` I'm Nsengiyumva Christian, a passionate web developer creating seamless online experiences. With creativity, technical expertise, and unwavering commitment to quality, I bring your visions to life. Let's reshape the digital landscape together with innovation and elegance.`
 
  
 
 
 const myphoto = `https://media.licdn.com/dms/image/D4D03AQFFov7JZu54Qg/profile-displayphoto-shrink_400_400/0/1667823935550?e=1687996800&v=beta&t=hQPHTFQb8Pm0wpKszZcQWOFSP1JCj7UUZSDFF5BCUH4`
 
-
-// used classes
-//hero
-//hero-title
-
-// {social.map((socialIc)=>{
-//   const {id,url,icon} = socialIc;
-//   return <a  style={{fontSize:"30PX",margin:"10px",color:"#2d4144"}} target='_blank' key={id} href={url}>{icon}</a>
-// }) }
-// <ul>
-
-//   <li style={{display:"flex",color:"#2d4144"}}><HiPhone style={{fontSize:"20PX"}} /> +250786457338 </li>
-//    <li style={{display:"flex",color:"#2d4144"}} > <HiMail style={{fontSize:"20PX"}} /> cristiannsengi@gmail.com </li>
-
-// </ul>
-
 const Hero = () => {
   return (
-   <section className='hero' >
+   <section id="hero-section" className='hero' >
   <h2 className='hero__h2' >WELCOME TO MY PORTFOLIO</h2>
   <div className='hero__div' >
-  <p> <span className='hero__name'>I'M NSENGIYUMVA CHRISTIAN</span> {aboutText}</p>
+  <div>{aboutText}
+  <br />
+  <ul className='footer-icons' >
+      
+      {social.map((socialIc)=>{
+          const {id,url,icon} = socialIc;
+          return <li key={id} >
+              <a href={url} target='_blank'  >{icon}</a>
+          </li>
+      }) }
+     </ul>
+  </div>
        <figure>
         <img  className='hero__img' src={myphoto} alt="christian"  width="400" height="400" />
        </figure>

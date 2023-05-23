@@ -12,11 +12,18 @@ const Projects = () => {
  }
 
   return (
-    <div>
-  <section className="projects"  >
+    <div id="all-projects" className='all-projects' >
+    <section className='select-project' >
+      <h3>Select projects category</h3>
+<ul className='projects-select-list' >
+<li><a href="#adv-projects">ADVANCED</a></li>
+<li><a href="#fund-projects">FUNDAMENTAL</a></li>
+</ul>  
+      </section>  
+  <section id="adv-projects" className="projects adv-projects"  >
 
-<div className="title">
-    <h2>{projects.slice(0,1).length} Advanced project</h2>
+<div className="title ">
+    <h2  >{projects.slice(0,1).length} Advanced project</h2>
     <div className="title-underline"></div>
    </div>
 
@@ -32,7 +39,7 @@ const Projects = () => {
    </div>
 </section>
 
-<section className="projects"  >
+<section  id="fund-projects" className="projects fund-projects"  >
    <div className="title">
     <h2 >{projects.slice(1,23).length} Fundamental projects</h2>
     <div className="title-underline"></div>
