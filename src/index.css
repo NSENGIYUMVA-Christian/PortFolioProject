@@ -327,7 +327,6 @@ border:2px solid rgb(36, 71, 100);
 background-color: rgba(0, 0, 0, 0.258);
 border-radius:5px;
 padding:3px;
-text-shadow: 1px 1px 2px rgb(32, 30, 18);
 animation: welcome 7s ease-in-out forwards;
 }
 @keyframes welcome {
@@ -415,9 +414,8 @@ figure{
   border: 2px solid rgba(70, 131, 180, 0.174);
 }
 .select-project h3{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:rgba(245, 245, 245, 0.9);
-  text-shadow: 1px 1px 2px black;
+ 
 }
 .projects-select-list {
   display: flex;
