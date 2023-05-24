@@ -8,7 +8,8 @@ const About = () => {
         <h3>About myself</h3>
         <p className='about-main-p'>
             
-<q>I am a web developer specialized in creating modern, responsive websites using HTML, CSS, and JavaScript. With a passion for crafting engaging online experiences, I stay updated with the latest trends and technologies. I excel in transforming complex concepts into user-friendly interfaces and prioritize collaboration with clients, designers, and developers. My problem-solving skills, attention to detail, and agile approach ensure visually appealing and reliable websites. As a lifelong learner, I embrace emerging technologies to stay ahead in the industry. If you seek a skilled web developer for exceptional results, let's collaborate and bring your ideas to life.</q>
+<q>
+I am a web developer specializing in modern, responsive websites. Passionate about creating engaging online experiences, I stay updated with the latest trends and technologies. I excel at transforming complex concepts into user-friendly interfaces, prioritizing collaboration with clients and fellow professionals. With problem-solving skills, attention to detail, and an agile approach, I ensure visually appealing and reliable websites. As a lifelong learner, I embrace emerging technologies to stay ahead in the industry. Let's collaborate and bring your ideas to life with exceptional results..</q>
         </p>
         </section>
         
