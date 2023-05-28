@@ -32,14 +32,14 @@ const toggleLinks = ()=>{
                 </ul>
             </div>
              {/* social links */}
-           <ul className='social-icons' >
+           {/* <ul className='social-icons' >
             {social.map((socialIc)=>{
                 const {id,url,icon} = socialIc;
                 return <li key={id} >
                     <a href={url} target='_blank' >{icon}</a>
                 </li>
             }) }
-           </ul>
+           </ul> */}
        </div>
 </nav>
   )
