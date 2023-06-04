@@ -23,12 +23,12 @@ const Projects = () => {
   <section id="adv-projects" className="projects adv-projects"  >
 
 <div className="title ">
-    <h2  >{projects.slice(0,1).length} Advanced project</h2>
+    <h2  >{projects.slice(0,2).length} Advanced project</h2>
     <div className="title-underline"></div>
    </div>
 
    <div className="projects-center"  >
-    {projects.slice(0,1).map((project)=>{
+    {projects.slice(0,2).map((project)=>{
         const {id,img,url,title} = project
         return <a key={id} href={url} target='_blank' rel="noreferrer" title="click to visit"  className="project" >
           <img src={img} alt={title} className="img" />
