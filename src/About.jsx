@@ -9,7 +9,7 @@ const About = () => {
         <p className='about-main-p'>
             
 <q>
-I I i am a web developer specializing in modern, responsive websites. Passionate about creating engaging online experiences, I stay updated with the latest trends and technologies. I excel at transforming complex concepts into user-friendly interfaces, prioritizing collaboration with clients and fellow professionals. With problem-solving skills, attention to detail, and an agile approach, I ensure visually appealing and reliable websites. As a lifelong learner, I embrace emerging technologies to stay ahead in the industry. Let's collaborate and bring your ideas to life with exceptional results..</q>
+I am a web developer specializing in modern, responsive websites. Passionate about creating engaging online experiences, I stay updated with the latest trends and technologies. I excel at transforming complex concepts into user-friendly interfaces, prioritizing collaboration with clients and fellow professionals. With problem-solving skills, attention to detail, and an agile approach, I ensure visually appealing and reliable websites. As a lifelong learner, I embrace emerging technologies to stay ahead in the industry. Let's collaborate and bring your ideas to life with exceptional results..</q>
         </p>
         </section>
         
