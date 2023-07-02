@@ -1,6 +1,8 @@
 import React from 'react'
 import {social} from "./social" 
 import {HiMail , HiPhone}  from "react-icons/hi";
+import chris from "./assets/chris.jpg"
+
 const aboutText = ` I'm Nsengiyumva Christian, a professional web developer creating seamless online experiences. With creativity, technical expertise, and unwavering commitment to quality, I bring your visions to life. Let's reshape the digital landscape together with innovation and elegance.`
 
  
@@ -26,7 +28,7 @@ const Hero = () => {
      </ul>
   </div>
        <figure>
-        <img  className='hero__img' src={myphoto} alt="christian"  width="400" height="400" />
+        <img  className='hero__img' src={chris} alt="christian"  width="400" height="400" />
        </figure>
   </div>
    </section>
